@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* --- Colors --- */
+  /* Colors are defined using the --color namespace */
+  --color-primary: #eceeff;
+  --color-coral-red: #ff6452;
+  --color-slate-gray: #6d6d6d;
+  --color-pale-blue: #f5f6ff;
+  --color-white-400: rgba(255, 255, 255, 0.8);
+
+  /* --- Font Families --- */
+  /* Font families use the --font namespace */
+  --font-palanquin: "Palanquin", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* --- Font Sizes --- */
+  /* Define matching line-height tokens so text-* utilities pick up both size and leading. */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 28px;
+  --text-4xl: 48px;
+  --text-8xl: 96px;
+
+  /* --- Line Heights --- */
+  /* Tailwind maps line-height to the text token using the `--text-*--line-height` pattern. */
+  --text-xs--line-height: 16px;
+  --text-sm--line-height: 20px;
+  --text-base--line-height: 19.5px;
+  --text-lg--line-height: 21.94px;
+  --text-xl--line-height: 24.38px;
+  --text-2xl--line-height: 29.26px;
+  --text-3xl--line-height: 50px;
+  --text-4xl--line-height: 58px;
+  --text-8xl--line-height: 106px;
+
+  /* --- Screens/Breakpoints --- */
+  /* Breakpoints use the --breakpoint namespace */
+  --breakpoint-wide: 1440px;
+
+  /* --- Box Shadow --- */
+  /* Custom shadows are less common in @theme, but you can define a variable for it */
+  --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+  /* --- Background Images --- */
+  /* Background images can be used via arbitrary values or defined as variables */
+  --bg-hero: url("assets/images/collection-background.svg");
+  --bg-card: url("assets/images/thumbnail-background.svg");
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
+/* To use custom shadows, you'd define a custom utility or apply it manually with a CSS variable: */
+@utility shadow-3xl {
+  box-shadow: var(--shadow-3xl);
+}
+
+@utility max-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@utility input {
+  /* Default styles */
+  text-base: ; /* Tailwind handles mapping text-base to the correct font-size/line-height */
+  line-height: normal; /* Tailwind handles mapping leading-normal to the correct line-height */
+  color: var(--color-slate-gray); /* Use CSS variables for colors */
+  padding-left: 1.25rem; /* Equivalent to pl-5 */
+  outline: none;
+  border-width: 1px; /* Equivalent to border */
+
+  /* Responsive styles (sm breakpoint and below) */
+  @variant sm {
+    flex: 1; /* Equivalent to sm:flex-1 */
+    border-width: 0; /* Equivalent to sm:border-none */
+  }
+
+  @variant max-sm {
+    width: 100%; /* Equivalent to max-sm:w-full */
+    padding: 1.25rem; /* Equivalent to max-sm:p-5 */
+    border-color: var(
+      --color-slate-gray
+    ); /* Equivalent to max-sm:border-slate-gray */
+    border-radius: 9999px; /* Equivalent to max-sm:rounded-full */
+  }
+}
+
+/* --- Padding Utilities --- */
+
+@utility padding {
+  /* Default styles (mobile first) */
+  padding-left: 2rem; /* px-8 */
+  padding-right: 2rem; /* px-8 */
+  padding-top: 3rem; /* py-12 */
+  padding-bottom: 3rem; /* py-12 */
+
+  @variant sm {
+    padding-left: 4rem; /* sm:px-16 */
+    padding-right: 4rem; /* sm:px-16 */
+    padding-top: 6rem; /* sm:py-24 */
+    padding-bottom: 6rem; /* sm:py-24 */
+  }
+}
+
+@utility padding-x {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @variant sm {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@utility padding-y {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  @variant sm {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@utility padding-l {
+  padding-left: 2rem;
+
+  @variant sm {
+    padding-left: 4rem;
+  }
+}
+
+@utility padding-r {
+  padding-right: 2rem;
+
+  @variant sm {
+    padding-right: 4rem;
+  }
+}
+
+@utility padding-t {
+  padding-top: 3rem;
+
+  @variant sm {
+    padding-top: 6rem;
+  }
+}
+
+@utility padding-b {
+  padding-bottom: 3rem;
+
+  @variant sm {
+    padding-bottom: 6rem;
+  }
+}
+
+/* --- Info Text Utility --- */
+
+@utility info-text {
+  /* This uses the "empty value" syntax to compose existing utilities */
+  font-family: var(
+    --font-montserrat
+  ); /* Assuming you defined this variable using @theme */
+  color: var(--color-slate-gray);
+  text-lg: ;
+  leading-7: ;
+}
