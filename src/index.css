@@ -74,6 +74,9 @@
 @utility bg-hero {
   background-image: var(--bg-hero);
 }
+@utility bg-card {
+  background-image: var(--bg-card);
+}
 
 @utility max-container {
   max-width: 1440px;
