@@ -1,3 +1,4 @@
+import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
 
 const SuperQuality = () => {
@@ -16,7 +17,24 @@ const SuperQuality = () => {
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
         </p>
-        <Button label="View Details" />
+        <p className="mt-6 lg:max-w-lg info-text">
+          Each pair is a testament to our commitment to excellence, combining
+          superior materials and expert craftsmanship to deliver shoes that not
+          only look good but feel great.
+        </p>
+        <div className="mt-11">
+          <Button label="View Details" />
+        </div>
+      </div>
+
+      <div className="flex-1 flex justify-center items-center">
+        <img
+          src={shoe8}
+          alt="Super Quality Shoe"
+          className="object-contain"
+          width={570}
+          height={522}
+        />
       </div>
     </section>
   );
