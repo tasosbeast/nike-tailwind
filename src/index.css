@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-
-@import "tailwindcss";
 
 @import "tailwindcss";
 
@@ -85,7 +82,9 @@
 
 @utility input {
   /* Default styles */
-  text-base: ; /* Tailwind handles mapping text-base to the correct font-size/line-height */
+  font-size: var(
+    --text-base
+  ); /* Tailwind handles mapping text-base to the correct font-size/line-height */
   line-height: normal; /* Tailwind handles mapping leading-normal to the correct line-height */
   color: var(--color-slate-gray); /* Use CSS variables for colors */
   padding-left: 1.25rem; /* Equivalent to pl-5 */
@@ -185,6 +184,6 @@
     --font-montserrat
   ); /* Assuming you defined this variable using @theme */
   color: var(--color-slate-gray);
-  text-lg: ;
-  leading-7: ;
+  font-size: var(--text-lg);
+  line-height: var(--text-lg--line-height);
 }
