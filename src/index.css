@@ -49,6 +49,30 @@
   /* Custom shadows are less common in @theme, but you can define a variable for it */
   --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
 
+  /* --- Keyframes --- */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes slide-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* --- Animations --- */
+  --animate-fade-in: fade-in 1.5s ease-out forwards;
+  --animate-slide-up: slide-up 0.7s ease-out forwards;
+
   /* --- Background Images --- */
   /* Background images can be used via arbitrary values or defined as variables */
   --bg-hero: url("assets/images/collection-background.svg");
