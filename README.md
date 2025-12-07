@@ -1,16 +1,65 @@
-# React + Vite
+# Nike Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Nike landing page built with React 19 and Tailwind CSS 4. This project showcases a sleek design with a focus on performance and visual aesthetics.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version here: **[https://nike-tailwind-tasos.netlify.app/](https://nike-tailwind-tasos.netlify.app/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design**: Fully responsive layout that adapts to all screen sizes (Mobile, Tablet, Desktop).
+- **Modern UI**: Built with the latest Tailwind CSS 4 features for a premium look and feel.
+- **Component-Based Architecture**: Modular React components for easy maintenance and reusability.
+- **Interactive Elements**: Hover effects, smooth transitions, and dynamic sections.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[React 19](https://react.dev/)**: The library for web and native user interfaces.
+- **[Tailwind CSS 4](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
+- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling.
+
+## 📂 Project Structure
+
+The project is structured into logical sections:
+
+- **Hero**: Eye-catching introductions with call-to-action buttons.
+- **Popular Products**: A grid showcase of top-rated Nike shoes.
+- **Super Quality**: Highlighting the premium quality of the footwear.
+- **Services**: Information about shipping, payments, and support.
+- **Special Offer**: Promotional banners and limited-time deals.
+- **Customer Reviews**: Testimonials from satisfied customers.
+- **Subscribe**: Newsletter subscription form.
+- **Footer**: Standard footer with links and copyright info.
+
+## 💻 Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/tasosbeast/nike-tailwind.git
+   cd nike-tailwind
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 📝 License
+
+This project is for educational purposes. All logos and images are property of their respective owners.
