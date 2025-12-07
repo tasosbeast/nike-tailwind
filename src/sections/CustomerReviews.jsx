@@ -1,6 +1,6 @@
-import ReviewCard from "../components/ReviewCard";
-import { reviews } from "../constants";
-import Reveal from "../components/Reveal";
+import ReviewCard from '../components/ReviewCard';
+import { reviews } from '../constants';
+import Reveal from '../components/Reveal';
 
 const CustomerReviews = () => {
   return (

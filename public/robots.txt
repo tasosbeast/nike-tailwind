@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nike-tailwind-tasos.netlify.app/sitemap.xml

@@ -8,8 +8,8 @@ const ShoeCard = ({ imgURL, changeBigShowImage, bigShowImage }) => {
     <div
       className={`border-2 rounded-xl ${
         bigShowImage === imgURL.bigShoe
-          ? "border-coral-red"
-          : "border-transparent"
+          ? 'border-coral-red'
+          : 'border-transparent'
       } cursor-pointer max-sm:flex-1`}
       onClick={handleClick}
       role="button"

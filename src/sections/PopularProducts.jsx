@@ -1,6 +1,6 @@
-import { products } from "../constants";
-import PopularProductCard from "../components/PopularProductCard";
-import Reveal from "../components/Reveal";
+import { products } from '../constants';
+import PopularProductCard from '../components/PopularProductCard';
+import Reveal from '../components/Reveal';
 
 const PopularProducts = () => {
   return (

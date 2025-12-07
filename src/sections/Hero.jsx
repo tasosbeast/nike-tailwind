@@ -1,9 +1,9 @@
-import Button from "../components/Button";
-import { arrowRight } from "../assets/icons";
-import { shoes, statistics } from "../constants";
-import { bigShoe1 } from "../assets/images";
-import ShoeCard from "../components/ShoeCard";
-import { useState } from "react";
+import Button from '../components/Button';
+import { arrowRight } from '../assets/icons';
+import { shoes, statistics } from '../constants';
+import { bigShoe1 } from '../assets/images';
+import ShoeCard from '../components/ShoeCard';
+import { useState } from 'react';
 
 const Hero = () => {
   const [bigShoeImage, setBigShoeImage] = useState(bigShoe1);
@@ -21,7 +21,7 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className="text-coral-red inline-block ">Nike</span>{" "}
+          <span className="text-coral-red inline-block ">Nike</span>{' '}
           <span className="inline-block bg-white">Shoes</span>
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">

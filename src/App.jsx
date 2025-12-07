@@ -7,9 +7,9 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
-} from "./sections";
+} from './sections';
 
-import Nav from "./components/Nav";
+import Nav from './components/Nav';
 
 const App = () => (
   <main className="relative">

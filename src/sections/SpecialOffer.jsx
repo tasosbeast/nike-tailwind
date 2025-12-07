@@ -1,7 +1,7 @@
-import { arrowRight } from "../assets/icons";
-import { offer } from "../assets/images";
-import Button from "../components/Button";
-import Reveal from "../components/Reveal";
+import { arrowRight } from '../assets/icons';
+import { offer } from '../assets/images';
+import Button from '../components/Button';
+import Reveal from '../components/Reveal';
 
 const SpecialOffer = () => {
   return (

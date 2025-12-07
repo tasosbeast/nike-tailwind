@@ -1,6 +1,6 @@
-import { services } from "../constants";
-import ServiceCard from "../components/ServiceCard";
-import Reveal from "../components/Reveal";
+import { services } from '../constants';
+import ServiceCard from '../components/ServiceCard';
+import Reveal from '../components/Reveal';
 
 const Services = () => {
   return (

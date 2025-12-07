@@ -1,6 +1,6 @@
-import { shoe8 } from "../assets/images";
-import Button from "../components/Button";
-import Reveal from "../components/Reveal";
+import { shoe8 } from '../assets/images';
+import Button from '../components/Button';
+import Reveal from '../components/Reveal';
 
 const SuperQuality = () => {
   return (
@@ -11,7 +11,7 @@ const SuperQuality = () => {
       <div className="flex flex-1 flex-col gap-5">
         <Reveal>
           <h2 className="font-palanquin text-4xl max-sm:text-3.5xl max-sm:leading-tight capitalize font-bold lg:max-w-lg">
-            We Provide You <span className="text-coral-red">Super Quality</span>{" "}
+            We Provide You <span className="text-coral-red">Super Quality</span>{' '}
             Shoes
           </h2>
           <p className="lg:max-w-lg info-text leading-normal mt-4">

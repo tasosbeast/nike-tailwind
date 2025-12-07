@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* --- Colors --- */
@@ -13,8 +13,8 @@
 
   /* --- Font Families --- */
   /* Font families use the --font namespace */
-  --font-palanquin: "Palanquin", sans-serif;
-  --font-montserrat: "Montserrat", sans-serif;
+  --font-palanquin: 'Palanquin', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
 
   /* --- Font Sizes --- */
   /* Define matching line-height tokens so text-* utilities pick up both size and leading. */
@@ -75,8 +75,8 @@
 
   /* --- Background Images --- */
   /* Background images can be used via arbitrary values or defined as variables */
-  --bg-hero: url("assets/images/collection-background.svg");
-  --bg-card: url("assets/images/thumbnail-background.svg");
+  --bg-hero: url('assets/images/collection-background.svg');
+  --bg-card: url('assets/images/thumbnail-background.svg');
 }
 
 @layer base {

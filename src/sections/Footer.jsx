@@ -1,7 +1,7 @@
-import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
-import { footerLinks, socialMedia } from "../constants";
-import Reveal from "../components/Reveal";
+import { copyrightSign } from '../assets/icons';
+import { footerLogo } from '../assets/images';
+import { footerLinks, socialMedia } from '../constants';
+import Reveal from '../components/Reveal';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
           <div className="flex flex-col items-start">
             <a href="/">
-              <img src={footerLogo} alt="Footer Logo" width={150} height={46} />
+              <img src={footerLogo} alt="Nike logo" width={150} height={46} />
             </a>
             <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
               Get shoes ready for the new term at your nearest Nike store. Find
@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="flex  justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center  gap-2 font-montserrat cursor-pointer">
           <div className="flex items-center gap-2">
-            {" "}
+            {' '}
             <img
               src={copyrightSign}
               alt="Copyright Sign"

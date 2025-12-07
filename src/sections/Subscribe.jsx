@@ -1,5 +1,5 @@
-import Button from "../components/Button";
-import Reveal from "../components/Reveal";
+import Button from '../components/Button';
+import Reveal from '../components/Reveal';
 
 const Subscribe = () => {
   return (
