@@ -18,16 +18,13 @@ const SpecialOffer = () => {
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           <span className="text-coral-red">Special</span> offer
         </h2>
-        <p className="mt-4 lg:max-w-lg info-text">
+        <p className="mt-4 lg:max-w-lg info-text leading-normal">
           Don't miss out on our exclusive special offer! For a limited time,
-          enjoy incredible discounts on our top-quality shoes. Whether you're
-          looking for the latest styles or classic designs, now is the perfect
-          time to upgrade your footwear collection at unbeatable prices.
+          enjoy incredible discounts on our top-quality shoes.
         </p>
-        <p className=" lg:max-w-lg info-text">
+        <p className=" lg:max-w-lg info-text leading-normal">
           Hurry, this special offer won't last forever! Upgrade your shoe game
           today and experience the perfect blend of style, comfort, and value.
-          Shop now and make every step count with our exclusive deals.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button label="Shop Now" iconURL={arrowRight} />

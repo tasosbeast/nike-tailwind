@@ -12,12 +12,12 @@ const SuperQuality = () => {
           We Provide You <span className="text-coral-red">Super Quality</span>{" "}
           Shoes
         </h2>
-        <p className="lg:max-w-lg info-text mt-4">
+        <p className="lg:max-w-lg info-text leading-normal mt-4">
           Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
         </p>
-        <p className=" lg:max-w-lg info-text">
+        <p className=" lg:max-w-lg leading-normal info-text">
           Each pair is a testament to our commitment to excellence, combining
           superior materials and expert craftsmanship to deliver shoes that not
           only look good but feel great.
