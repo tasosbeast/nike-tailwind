@@ -64,7 +64,11 @@ const Footer = () => {
               height={20}
               className="rounded-full m-0"
             />
-            <p>{new Date().getFullYear()} Nike. All rights reserved.</p>
+            <p>
+              {new Date().getFullYear()} This website is a personal portfolio
+              project and a coding exercise for educational purposes. It is not
+              intended to impersonate any brand or collect user data
+            </p>
           </div>
 
           <p>
